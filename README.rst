@@ -32,7 +32,7 @@ Install our image with Docker
 Run our docker instance with the following commands
 ^^^^^^^^^^^^
 ::
-    >> docker-compose -f local.yml run --rm rocka python main.py 
+  >> docker-compose -f local.yml run --rm rocka python main.py 
 
 
 How it works
@@ -42,7 +42,7 @@ Create a new connection
 ^^^^^^^^^^^^
 
 ::
-  # Create a a new connection to our JSON file as a DB
+  # Create a a new connection to our JSON file as a DB  
   movies = Connection('movies-database-v2.json')
 
 
