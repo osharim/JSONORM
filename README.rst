@@ -2258,19 +2258,22 @@ This meethod adds a '__sum__' property to each object.
     }
     ]
 
-## FILTERS
+FILTERS
+^^^^^^^^^^^^
 
-# In order to filter elements through Actors, we can just pass a List to our object
+In order to filter elements through Actors, we can just pass a List to our object
 
 Filter by Actors
 
->>  movies = Connection('movies-database-v2.json')
->>  movies.queryset.filter(actors=['Ryan Reynolds', 'William Ackman']
+::
+  >>  movies = Connection('movies-database-v2.json')
+  >>  movies.queryset.filter(actors=['Ryan Reynolds', 'William Ackman']
 
 - Response: 
 
 :: 
-    [{
+
+  [{
         'title': 'Betting on Zero',
         'year': '2016',
         'genres': ['Documentary'],
