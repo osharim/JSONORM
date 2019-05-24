@@ -2266,6 +2266,7 @@ In order to filter elements through Actors, we can just pass a List to our objec
 Filter by Actors
 
 ::
+
   >>  movies = Connection('movies-database-v2.json')
   >>  movies.queryset.filter(actors=['Ryan Reynolds', 'William Ackman']
 
