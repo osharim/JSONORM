@@ -4,7 +4,9 @@ Explain how connection works
 I Built an entire kind-of ORM (Object-Relational mapping) on top of this JSON file as manager object to access in a easy way to our data. 
 We've the following methods available:
 
-- filter, group_by, order_by
+- filter, group_by, order_by, classifiers by actors, by genre, by popularity
+
+Please* check main.py for more information
 
 With this filter engine we can perform every required query 
 
