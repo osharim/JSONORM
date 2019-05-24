@@ -1,4 +1,4 @@
-Explain how connection works
+How it Works
 ^^^^^^^^^^^^
 
 I Built an entire kind-of ORM (Object-Relational mapping) on top of this JSON file as manager object to access in a easy way to our data. 
