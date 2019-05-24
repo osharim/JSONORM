@@ -13,8 +13,9 @@ How to test with Pytest
 
 In order to test this applicating, you should run the following commands
 
->> docker-compose -f local.yml run pytest
+>> docker-compose -f local.yml run --rm rocka pytest
 
+.. image:: ./docs/test.png
 
 How to use
 ^^^^^^^^^^^^
@@ -27,7 +28,7 @@ Install our image with Docker
 Run our docker instance with the following commands
 ^^^^^^^^^^^^
 
->> docker-compose -f local.yml run --rm python main.py
+>> docker-compose -f local.yml run --rm rocka python main.py 
 
 
 How it works
