@@ -45,6 +45,8 @@ How it works
 Create a new connection
 ^^^^^^^^^^^^
 
+I Built an entire kind-of ORM (Object-Relational mapping) on top of this JSON file as manager object to access in a easy way to our data.
+
 ::
 
   # Create a a new connection to our JSON file as a DB  
