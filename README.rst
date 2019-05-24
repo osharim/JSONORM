@@ -2313,8 +2313,10 @@ Filter by Actors
 
 Filter by Actors
 
->>  movies = Connection('movies-database-v2.json')
->>  movies.queryset.filter(genres=['Horror', 'Sci-Fi'])
+::
+
+  >>  movies = Connection('movies-database-v2.json')
+  >>  movies.queryset.filter(genres=['Horror', 'Sci-Fi'])
 
 - Response
 
