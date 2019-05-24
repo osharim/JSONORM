@@ -1,4 +1,5 @@
-# Explain how connection works
+Explain how connection works
+^^^^^^^^^^^^
 
 I Built an entire kind-of ORM (Object-Relational mapping) on top of this JSON file as manager object to access in a easy way to our data. 
 We've the following methods available:
@@ -7,37 +8,44 @@ We've the following methods available:
 
 With this filter engine we can perform every required query 
 
-# How to test with Pytest
+How to test with Pytest
+^^^^^^^^^^^^
 
 In order to test this applicating, you should run the following commands
 
 >> docker-compose -f local.yml run pytest
 
 
-## How to use
+How to use
+^^^^^^^^^^^^
 
-
-# Install our image with Docker
+Install our image with Docker
+^^^^^^^^^^^^
 
 >> docker-compose -f local.yml up 
 
-# Run our docker instance with the following commands
+Run our docker instance with the following commands
+^^^^^^^^^^^^
 
 >> docker-compose -f local.yml run --rm python main.py
 
 
-# How it works
+How it works
+^^^^^^^^^^^^
 
-# Create a new connection
+Create a new connection
+^^^^^^^^^^^^
 
 ::
     # Create a a new connection to our JSON file as a DB
     movies = Connection('movies-database-v2.json')
 
 
-# ORM Available methods. 
+ORM Available methods. 
+^^^^^^^^^^^^
 
-# CLASSIFICATION
+CLASSIFICATION
+^^^^^^^^^^^^
 
 # Classify by popularity
 
