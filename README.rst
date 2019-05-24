@@ -32,6 +32,7 @@ Install our image with Docker
 Run our docker instance with the following commands
 ^^^^^^^^^^^^
 ::
+
   >> docker-compose -f local.yml run --rm rocka python main.py 
 
 
@@ -42,6 +43,7 @@ Create a new connection
 ^^^^^^^^^^^^
 
 ::
+
   # Create a a new connection to our JSON file as a DB  
   movies = Connection('movies-database-v2.json')
 
@@ -59,10 +61,13 @@ Get 10 last movies ordered by ratings
 
 This meethod adds a '__sum__' property to each object.
 
->> movies = Connection('movies-database-v2.json'
->> ordered_by_popularity = movies.queryset.order_by('ratings')[:10]
+::
+
+  >> movies = Connection('movies-database-v2.json'
+  >> ordered_by_popularity = movies.queryset.order_by('ratings')[:10]
 
 - Response
+
 ::
 
     [
